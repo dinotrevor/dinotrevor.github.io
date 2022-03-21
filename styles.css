@@ -1,0 +1,207 @@
+*,*:after {
+	box-sizing: border-box;
+}
+
+body{
+	background-color: rgba(180, 180, 196, 1.0);
+	background-image: linear-gradient(to right,
+	  rgba(0, 0, 0, .7) 1%,
+      rgba(0, 0, 0, .8) 25%,
+      rgba(0, 0, 0, .9) 50%);
+font-family: 'Courier New', monospace;
+margin:0px;
+
+text-shadow:1.5px 3px maroon;
+}
+
+
+h1, h3 {
+	font-family: 'Courier New', monospace;
+	text-shadow:1.5px 3px maroon;
+}
+header h1{
+	color:white;
+	text-align:center;
+	padding-top:3;
+	padding-left:10px;
+text-shadow:1.5px 3px maroon;	
+}
+header {
+	overflow:hidden;
+	position:relative;
+	display:flex;
+	opacity:1.0;
+	height:auto;
+	width:1500px;
+	margin:0 auto;
+	background:url("../images/hack6.jpg");
+	
+}
+#update {
+	overflow:hidden;
+	position:relative;
+	display:flex;
+	opacity:1.0;
+	height:auto;
+	width:1500px;
+	margin:0 auto;
+	background:url("../images/hack6.jpg");
+	
+}
+#headline{
+	display:inline-block;
+	
+	float:right;
+	
+}
+nav ul{
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+	overflow:hidden;
+	text-align:center;
+	width:100%;
+	display:block;
+}
+nav ul li{
+	display:inline;
+	border-bottom:1px solid;
+	background-color:black;
+	height:40px;
+	border-bottom:1px solid white;
+	
+}
+nav ul li a {
+	display:inline-block;
+	text-align:center;
+	padding:15px 0px;
+	font-family: 'Courier New', monospace;
+	color:white;
+	text-decoration:none;
+	text-shadow:1.5px 3px maroon;
+}
+nav ul li a:visited {
+	color:white;
+}
+nav ul li a:hover {
+	background-color:maroon;
+	font-weight:bold;
+	
+}
+nav ul li a:active {
+    background-color:green;
+
+}
+
+#logo{
+	opacity:1.0;
+	float:left;
+	padding:0px;
+	margin:0px;
+	display:inline;
+	position:relative;
+	z-index:100;
+
+}
+
+
+
+#scroll{
+		
+	background: url("../images/hack6.jpg");
+	opacity: 0.65;
+	animation:slide 100s linear infinite;
+	width:4500px;
+	position:absolute;
+	left:0;
+	top:0;
+	height:100%;
+	width:300%;
+	
+	
+
+}
+#scroll2{
+		
+	background: url("../images/hack6.jpg");
+	opacity: 0.65;
+	animation:slide 13s linear infinite;
+	width:4500px;
+	position:absolute;
+	left:0;
+	top:0;
+	height:100%;
+	width:300%;
+	
+	
+
+}
+
+@keyframes slide {
+	0% {
+		transform: translate3d(0, 0, 0);
+	}
+	100% {
+		transform: translate3d(-1980px, 0, 0);
+	}
+	
+}
+
+
+
+
+
+
+#form {
+	color:white;
+	width:100%;
+	
+	font-size:25px;
+	padding:20px;
+	background-color:rgba( 89, 148, 168, 0.15);
+	border:2px solid black;
+	text-shadow:1.5px 3px maroon;
+	text-align:center;
+}
+#form p {
+ font-size:14px;
+ padding:10px;
+}
+
+form #comments {
+	width:200px;
+}
+form label {
+	font-size:14px;
+}
+
+form input {
+
+	margin-left:20px;
+	
+}
+form #submit {
+	margin:20px;
+	width:70px;
+	height:70px;
+	border-radius:180px;
+	background-color:#839b82;
+
+	
+	
+}
+
+#aboutHeading {
+	text-shadow:1.5px 3px maroon;
+	
+}
+#homeHeading {
+	text-shadow:1.5px 3px maroon;
+	
+}
+
+section p {
+	background-color:rgb(118, 90, 99, 0.23);
+	
+	
+}
