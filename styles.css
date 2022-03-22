@@ -37,6 +37,11 @@ header {
 	background:url("hack6.jpg");
 	
 }
+
+li {
+	
+list-style-type:none;	
+}
 #update {
 	overflow:hidden;
 	position:relative;
